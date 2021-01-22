@@ -1,6 +1,2 @@
-alert("Ola mundo");//cometário 
-
-/*mais 
-de 
-uma 
-linha*/
+var mensagem = "Olá mundo";
+alert(mensagem);
