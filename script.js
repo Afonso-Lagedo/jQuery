@@ -1,13 +1,20 @@
-//while
+//tipos de variáveis
+var numero = 6;
+var decimal = 4.5;
+var texto = "Olá Mundo";
 
-var i = 0;
+var lista = ["a", "b", "c"];
 
-while (i < 3){
-	alert("i"+i);
-	i=i+1;
+alert(lista); //lista inteira 
+
+alert(lista[0]); //posição zero 
+
+//com for passando por todoas posições imprimindo posição
+for (i in lista){
+	alert (i);
 }
 
-//for
-for ( var j =0; j < 3; j++){
-	alert("j"+j);
+//com for passando por todoas posições imprimindo elemento da posição
+for (i in lista){
+	alert (lista[i]);
 }
