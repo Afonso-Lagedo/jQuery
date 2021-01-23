@@ -8,6 +8,9 @@ $(document).ready(function(){//verificar  se a página foi lida
 	});
 	$('#azul').click(function(){
 		$('h1').css("color","blue");
-		$('h1').hide();
+		$('#mensagem').text("Cor alterada com sucesso");
+		$('#mensagem').css('border', '3px solid blue');
+		$('#mensagem').delay(3000);
+		$('#mensagem').fadeOut('fast');
 	});
 });
