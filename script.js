@@ -1,18 +1,13 @@
-var a = 2;
-var b = 3;
+//while
 
-var soma = a+b;
-var sub = a-b;
-var mult = a*b;
-var div = a/b;
+var i = 0;
 
-if (b%2 ==1){
-	alert ("ímpar");
+while (i < 3){
+	alert("i"+i);
+	i=i+1;
 }
 
-else if(b%2 ==0){
-	alert ("par");	
-}
-else{
-	alert("Valor inválido");
+//for
+for ( var j =0; j < 3; j++){
+	alert("j"+j);
 }
