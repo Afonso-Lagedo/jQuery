@@ -1,6 +1,9 @@
 // $(seletor).ação();
 $(document).ready(function(){//verificar  se a página foi lida
-	$('button').click(function(){
-		$('h1').hide();
+	$('#verde').click(function(){
+		$('h1').css("color","green");
+	});
+	$('#azul').click(function(){
+		$('h1').css("color","blue");
 	});
 });
